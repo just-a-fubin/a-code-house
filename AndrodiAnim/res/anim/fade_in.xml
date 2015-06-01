@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" >
+    <!-- fillBefore 动画结束停留在动画的第一帧-->
+    <!-- fillAfter 动画结束停留在动画的最后一帧-->
+    <alpha 										
+        android:duration="1000"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"/>
+    <!--alpha 		渐变透明度动画 -->
+    <!--duration 	动画持续时间 -->
+    <!--fromAlpha 	初始透明度   -->
+    <!--toAlpha 	结束透明度 -->
+    <!--透明度取值 0.0~1.0 的 float型数字  -->
+
+</set>

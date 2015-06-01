@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <scale
+        android:duration="1000"
+        android:fromXScale="1.0"
+        android:fromYScale="0.0"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+	<!--scale 		动画持续时间 -->
+	<!--duration 	尺寸伸缩动画 -->
+	<!--fromXScale 	动画起始时 X坐标上的伸缩尺寸 -->
+	<!--fromYScale 	动画起始时 Y坐标上的伸缩尺寸 -->
+	<!--pivotX 		动画相对于物件的X坐标的开始位置 -->
+	<!--pivotY 		动画相对于物件的Y坐标的开始位置 -->
+	<!--0.0表示收缩到没有    
+        1.0表示正常无伸缩        
+                    值小于1.0表示收缩     
+                    值大于1.0表示放大     -->
+    
+</set>
