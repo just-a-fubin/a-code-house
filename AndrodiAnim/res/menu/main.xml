@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.just_a_fubin.androdianim.MainActivity" >
+
+    <item
+        android:id="@+id/action_fade_in"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="fade in"/>
+    
+    <!--orderInCategory	优先级-->
+    <!--showAsAction  	在Action Bar显示-->
+    
+    <item
+        android:id="@+id/action_fade_out"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="fade out"/>
+    
+    <item
+        android:id="@+id/action_zoom_in"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="zoom in"/>
+    
+    <item
+        android:id="@+id/action_zoom_out"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="zoom out"/>
+    
+    <item
+        android:id="@+id/action_slide_up"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="slide up"/>
+    
+    <item
+        android:id="@+id/action_slide_down"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="slide down"/>
+    
+    <item
+        android:id="@+id/action_move"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="move"/>
+    
+    <item
+        android:id="@+id/action_rotate"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="rotate"/>
+
+</menu>
